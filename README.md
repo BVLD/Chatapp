@@ -4,8 +4,8 @@ I created a chat app  with android studio
 
 ## Images
 
-![login](https://user-images.githubusercontent.com/35815298/47652440-3ec50500-db86-11e8-8b32-5be6bc0660a7.png)
-![register](https://user-images.githubusercontent.com/35815298/47652445-41275f00-db86-11e8-9795-f5d5df7fd856.png)
+![login](https://user-images.githubusercontent.com/35815298/47668440-bdcb3500-dba8-11e8-8ab7-6ed292736a8c.png)
+![register](https://user-images.githubusercontent.com/35815298/47668445-c15ebc00-dba8-11e8-8a34-fed4cd07f92f.png)
 ![profiles](https://user-images.githubusercontent.com/35815298/47652454-484e6d00-db86-11e8-8047-80399ee726b6.png)
 ![all users](https://user-images.githubusercontent.com/35815298/47652463-4dabb780-db86-11e8-911a-0566f17e73b4.png)
 ![profile](https://user-images.githubusercontent.com/35815298/47652467-52706b80-db86-11e8-894e-8f1d3748c377.png)
