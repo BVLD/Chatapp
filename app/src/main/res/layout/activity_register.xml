@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Chat app"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="REGISTER"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/ET_Password_Register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/textview"
+        android:backgroundTint="@color/Dark_Blue"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/ET_Name_Register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="215dp"
+        android:background="@drawable/textview"
+        android:backgroundTint="@color/Dark_Blue"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/ET_Email_Register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/textview"
+        android:backgroundTint="@color/Dark_Blue"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/TV_Login_Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="540dp"
+        android:text="Click here to login"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+
+<Button
+android:id="@+id/Btn_Register_Register"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:layout_alignParentBottom="true"
+android:layout_centerHorizontal="true"
+android:layout_marginStart="8dp"
+android:layout_marginEnd="8dp"
+android:layout_marginBottom="30dp"
+android:background="@drawable/button"
+    android:backgroundTint="@color/Dark_Blue"
+android:text="Register"
+android:textSize="15sp"
+android:textColor="@android:color/black"
+android:textStyle="bold" />
+
+</RelativeLayout>

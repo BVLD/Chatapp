@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Users_Account">
+
+    <TextView
+        android:id="@+id/User_Name_User_Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="name"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <Button
+        android:id="@+id/Btn_Send_Friend_Request_Users_Account"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="87dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/Dark_Blue"
+        android:textColor="@android:color/white"
+        android:text="Send friend request"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Btn_Decline_Friend_Request_Users_Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/Dark_Blue"
+        android:text="Decline friend request"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Chat app"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/ET_Password_Login"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/Dark_Blue"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/textview"
+        android:hint="Password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ET_Email_Login"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/Dark_Blue"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="225dp"
+        android:gravity="center"
+        android:hint="Email"
+        android:background="@drawable/textview"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TV_NEW_ACC_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="520dp"
+        android:layout_centerHorizontal="true"
+        android:text="Already an account, click here to create a new one"
+        android:textColor="@color/Dark_Blue"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+
+
+<Button
+android:id="@+id/Btn_Login_Login"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentStart="true"
+android:layout_alignParentBottom="true"
+android:layout_marginStart="8dp"
+android:layout_marginEnd="8dp"
+android:layout_marginBottom="50dp"
+android:background="@drawable/button"
+android:text="Login"
+    android:backgroundTint="@color/Dark_Blue"
+android:textSize="15sp"
+android:textColor="@android:color/black"
+android:textStyle="bold" />
+
+</RelativeLayout>

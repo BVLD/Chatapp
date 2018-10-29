@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Light_Light_Grey"
+    tools:context=".ChatActivity">
+
+    <include
+        android:id="@+id/chat_app_BAR"
+        layout="@layout/toolbar"></include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messageList"
+        android:layout_width="match_parent"
+        android:layout_height="431dp"
+        android:layout_above="@+id/K"
+        android:layout_below="@+id/chat_app_BAR"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"></android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/K"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom">
+
+
+        <EditText
+            android:id="@+id/ET_Message_Chat"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/textview_send"
+            android:gravity="center_vertical"
+            android:hint="Send message"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/IV_SEND_Chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/ic_send_black" />
+
+    </LinearLayout>
+
+</RelativeLayout>
